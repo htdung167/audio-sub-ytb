@@ -13,3 +13,5 @@
   + MAX_WORKERS: số worker để download audio
 
 - python main.py
+
+- examples: ![alt text](images/ex.png)
