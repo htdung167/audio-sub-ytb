@@ -1,6 +1,7 @@
 # audio-sub-ytb
 
 - ytb.txt: chứa url video muốn crawl
+
 - main.py:
   + YOUTUBE_URL: path ytb.txt
   + LANG: ngôn ngữ
@@ -10,3 +11,5 @@
   + MAX_TIME: (khi MERGE_SUBTITLE True) thời gian tối đa của một đoạn audio
   + ALLOWABLE_DISTANCE: (khi MERGE_SUBTITLE True) khoảng cách thời gian tối đa giữa 2 audio
   + MAX_WORKERS: số worker để download audio
+
+- python main.py
