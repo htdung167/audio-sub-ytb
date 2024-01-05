@@ -252,9 +252,9 @@ class VCtube:
             full_names = []
 
             for idx in range(len(video_id)):
-                full_name = os.path.join(wav_dir, video_id[idx] + '.' + str(s).zfill(4) + '.wav')
+                full_name = os.path.join(wav_dir, video_id[idx] + '.' + str(idx).zfill(4) + '.wav')
                 full_names.append(full_name)
-                name = video_id[idx] + '.' + str(s).zfill(4) + '.wav'
+                name = video_id[idx] + '.' + str(idx).zfill(4) + '.wav'
                 names.append(name)
 
         for uid in unique_video_id:
