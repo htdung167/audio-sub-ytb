@@ -14,4 +14,4 @@
 
 - python main.py
 
-- examples: ![alt text](images/ex.png)
+- examples: ![alt text](images/example.png)
