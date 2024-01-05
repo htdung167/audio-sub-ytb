@@ -1,0 +1,14 @@
+{
+    "id": "video_id",
+    "wav_path": "path/to/wav/file",
+    "subtitles": [
+        {
+            "order": 0,
+            "wav_path": "path/to/wav/file",
+            "name": "name",
+            "text": "text",
+            "start": 1.12,
+            "duration": 12.30
+        }
+    ]
+}
